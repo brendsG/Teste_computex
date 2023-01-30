@@ -18,7 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/home', [TesteController::class, 'index']);
-Route::get('/json', [TesteController::class, 'json']);
 Route::get('/horario_aluno', [TesteController::class, 'horario_aluno']);
 Route::get('/acesso_aluno', [TesteController::class, 'acesso_aluno']);
 Route::get('/alunos', [TesteController::class, 'alunos']);
